@@ -19,7 +19,7 @@ namespace SocialMedia
         }
         public override string ToString()
         {
-            return String.Format("{0} - {1} - por {2} \n {3} ", this.ID, this.Titulo, this.UsuarioEmisor, this.ImageURL);
+            return String.Format("{0} - {1} - por {2}  ", this.ID, this.Titulo, this.UsuarioEmisor);
         }
     }
 }
